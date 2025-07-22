@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>École ABC — Excellence et Avenir</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="Logo École ABC" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a_propos">À propos</a></li>
+        <li><a href="#programmes">Programmes</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero">
+    <img src="images/banner.jpg" alt="Bannière école">
+    <div class="hero-text">
+      <h1>Bienvenue à l’École ABC</h1>
+      <p>L'éducation du futur, aujourd’hui.</p>
+      <a href="#contact" class="btn">Nous contacter</a>
+    </div>
+  </section>
+
+  <section id="a_propos" class="section">
+    <h2>À propos</h2>
+    <p>Notre mission est de proposer une formation de qualité, ancrée dans des valeurs de respect, d'innovation et de réussite globale.</p>
+  </section>
+
+  <section id="programmes" class="section">
+    <h2>Nos Programmes</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Maternelle</h3>
+        <p>Découverte et éveil pour les 3–5 ans.</p>
+      </div>
+      <div class="card">
+        <h3>Primaire</h3>
+        <p>Bases solides en français, mathématiques, sciences.</p>
+      </div>
+      <div class="card">
+        <h3>Secondaire</h3>
+        <p>Branches : Scientifique, Économique, Littéraire.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galerie" class="section">
+    <h2>Galerie</h2>
+    <div class="gallery">
+      <img src="images/photo1.jpg" alt="Élèves en classe">
+      <img src="images/photo2.jpg" alt="Activité de groupe">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contactez-nous</h2>
+    <form id="contactForm">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 École ABC — Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

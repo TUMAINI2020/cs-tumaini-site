@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Témoignages - Tumaini</title>
+    <style>
+        body { font-family: Arial; margin: 0; padding: 0; }
+        header, footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #0066cc;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .temoignage {
+            background-color: #f2f2f2;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #004080;
+        }
+        form {
+            background-color: #e9e9e9;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        input, textarea {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #004080;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #00264d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Témoignages et Suggestions</h1>
+</header>
+
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="inscription.html">Inscription</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="services.html">Services</a>
+    <a href="temoignages.html">Témoignages</a>
+    <a href="actualites.html">Actualités</a>
+    <a href="faq.html">FAQ</a>
+</nav>
+
+<section>
+    <h2>Ce que disent nos anciens élèves et parents</h2>
+
+    <div class="temoignage">
+        <strong>Marie Kabuo (Parent)</strong>
+        <p>« Tumaini a changé la vie de ma fille. Les enseignants sont attentionnés et très compétents. Merci pour votre travail exceptionnel. »</p>
+    </div>
+
+    <div class="temoignage">
+        <strong>Patrick Mulumba (Ancien élève)</strong>
+        <p>« C’est grâce à Tumaini que j’ai pu intégrer l’université avec confiance. L’encadrement est excellent. »</p>
+    </div>
+
+    <div class="temoignage">
+        <strong>Esther Bahati (Parent)</strong>
+        <p>« Je recommande vivement cette école. Mon fils a trouvé un environnement stimulant et bienveillant. »</p>
+    </div>
+
+    <h2>Laissez votre témoignage ou suggestion</h2>
+
+    <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="statut">Vous êtes (parent / ancien élève) :</label>
+        <input type="text" id="statut" name="statut" required>
+
+        <label for="message">Votre message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Complexe Scolaire Tumaini
+</footer>
+
+</body>
+</html>

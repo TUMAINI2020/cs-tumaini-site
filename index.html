@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>CS TUMAINI - Accueil</title>
+  <style>
+    body {
+      font-family: "Times New Roman", sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background-image: url('https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px 40px 20px;
+      position: relative;
+    }
+    header .logo {
+      width: 100px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      object-fit: contain;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      text-shadow: 1px 1px 10px #0007;
+    }
+    nav {
+      background-color: #003080;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      background-color: rgba(255,255,255,0.92);
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .box {
+      background-color: white;
+      border: 2px solid #004aad;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+      padding: 20px;
+      width: 320px;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden;
+    }
+    .box img.mini-photo {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    .box h2 {
+      color: #004aad;
+      margin-top: 0;
+    }
+    .box ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .box ul li {
+      margin: 8px 0;
+    }
+    .box ul li a {
+      color: #004aad;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .box ul li a:hover {
+      text-decoration: underline;
+    }
+    .valeurs {
+      background: #f0f6ff;
+      border: 2px solid #89b4fa;
+    }
+    .services {
+      background: #fafff0;
+      border: 2px solid #f7c873;
+    }
+    .activites {
+      background: #fff8f0;
+      border: 2px solid #ffb703;
+    }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 12px;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+    .top-bar {
+      background-color: #004aad;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .titre-langue h1 {
+      margin: 0;
+    }
+    .message-traduit {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    /* Responsive */
+    @media (max-width: 800px) {
+      .container { flex-direction: column; }
+      .box { width: 95%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="images/logo-tumaini.png" alt="Logo Complexe Scolaire Tumaini">
+    <h1>Bienvenue au Complexe Scolaire Tumaini</h1>
+    <div id="google_translate_element"></div>
+    <p class="message-traduit">Inscription | Bibliothèque</p>
+  </header>
 
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="inscription.html">Inscription</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="services.html">Services</a>
+    <a href="temoignages.html">Témoignages</a>
+    <a href="actualites.html">Actualités</a>
+    <a href="faq.html">FAQ</a>
+  </nav>
+
+  <div class="container">
+    <div class="box institution">
+      <img class="mini-photo" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=500&q=80" alt="Photo classe">
+      <h2>Institution</h2>
+      <ul>
+        <li><a href="decouvrir.html">Découvrir CS Tumaini</a></li>
+        <li><a href="organisation.html">Organisation de Tumaini</a></li>
+      </ul>
+    </div>
+
+    <div class="box formation">
+      <img class="mini-photo" src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=500&q=80" alt="Equipe pédagogique">
+      <h2>Formation</h2>
+      <ul>
+        <li><a href="options.html">Nos options organisées</a></li>
+        <li><a href="sections.html">Nos sections organisées</a></li>
+        <li><a href="classes.html">Nos classes</a></li>
+      </ul>
+    </div>
+
+    <div class="box valeurs">
+      <img class="mini-photo" src="https://img.icons8.com/fluency/240/values.png" alt="Valeurs">
+      <h2>Nos valeurs</h2>
+      <p>Discipline, Excellence, Respect, Foi.</p>
+    </div>
+
+    <div class="box services">
+      <img class="mini-photo" src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=500&q=80" alt="Activité scolaire">
+      <h2>Nos services</h2>
+      <p>Enseignement de qualité, encadrement personnalisé, transport scolaire sécurisé, cantine hygiénique et plus encore.</p>
+    </div>
+
+    <div class="box activites">
+      <img class="mini-photo" src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=500&q=80" alt="Activités récentes">
+      <h2>Activités récentes</h2>
+      <ul>
+        <li>Sortie éducative au Parc Virunga</li>
+        <li>Concours interscolaire de mathématiques</li>
+        <li>Célébration de la journée de l’enfant africain</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Complexe Scolaire Tumaini | science, travail, discipline.
+  </footer>
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'fr'}, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

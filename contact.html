@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - CS TUMAINI</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #00337f;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    .container {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #004aad;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #004aad;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .info {
+      margin-top: 30px;
+      line-height: 1.6;
+    }
+
+    .socials img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Contact - Complexe Scolaire TUMAINI</h1>
+</header>
+
+<nav>
+  <a href="index.html">Accueil</a>
+</nav>
+
+<div class="container">
+  <h2>Nous contacter</h2>
+  <p class="info">
+    Avenue Kituku, Numéro 99<br>
+    Goma, Nord-Kivu, République Démocratique du Congo<br>
+    <strong>E-mail :</strong> secretariat@tumaini-cs.org<br>
+    <strong>Site Web :</strong> www.tumaini-cs.org<br>
+    <strong>Téléphone :</strong> +243 974 209 388
+  </p>
+
+  <iframe
+    src="https://www.google.com/maps?q=CS+Tumaini,+Goma,+RDC&output=embed"
+    allowfullscreen=""
+    loading="lazy"
+  ></iframe>
+
+  <h2>Laissez-nous un message</h2>
+  <form>
+    <label>Nom & Postnom :</label>
+    <input type="text" name="nom" required>
+
+    <label>E-mail :</label>
+    <input type="email" name="email" required>
+
+    <label>Sujet :</label>
+    <input type="text" name="sujet">
+
+    <label>Téléphone :</label>
+    <input type="text" name="telephone">
+
+    <label>Niveau :</label>
+    <select>
+      <option>Maternelle</option>
+      <option>Primaire</option>
+      <option>Secondaire</option>
+    </select>
+
+    <label>Message :</label>
+    <textarea name="message" rows="5"></textarea>
+
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <div class="socials">
+    <h3>Suivez-nous :</h3>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/50/facebook-new.png" alt="Facebook"></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/50/twitter.png" alt="Twitter"></a>
+    <a href="#"><img src="https://img.icons8.com/ios-filled/50/instagram-new.png" alt="Instagram"></a>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Complexe Scolaire TUMAINI - Tous droits réservés.
+</footer>
+
+</body>
+</html>
